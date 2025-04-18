@@ -1,0 +1,16 @@
+.idea/
+__pycache__
+main.db
+log.txt
+*.log
+nohup.out
+logfile.log.*
+
+*.png
+*.jpg
+*.JPEG
+
+.env
+
+voices/
+asr_result/

@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+
+urllib3
+openai
+httpx
+numpy==1.23.5
+scipy
+tqdm
+python-multipart
+funasr
+ffmpeg-python
+
+torch
