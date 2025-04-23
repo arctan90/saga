@@ -72,3 +72,25 @@
 3. 提交代码前请确保通过所有测试 
 
 pip3 安装moshi需要运行  . "$HOME/.cargo/env" 
+
+## 下载模型
+[Damo ASR Model](https://modelscope.cn/models/iic/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch/files)
+```
+modelscope download --model iic/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch
+mv $HOME/.cache/modelscope/hub/models/iic/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch ./ai_components/Asr/models/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch
+```
+[Damo VAD Model](https://modelscope.cn/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/files)
+```
+modelscope download --model iic/speech_fsmn_vad_zh-cn-16k-common-pytorch
+mv $HOME/.cache/modelscope/hub/models/iic/speech_fsmn_vad_zh-cn-16k-common-pytorch ./ai_components/Asr/models/speech_fsmn_vad_zh-cn-16k-common-pytorch
+
+```
+[Damo Punc Model](https://modelscope.cn/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/files)
+
+```
+modelscope download --model iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch
+mv $HOME/.cache/modelscope/hub/models/iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch ./ai_components/Asr/models/punc_ct-transformer_zh-cn-common-vocab272727-pytorch
+```
+
+
+
