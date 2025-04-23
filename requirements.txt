@@ -11,5 +11,6 @@ tqdm
 python-multipart
 funasr
 ffmpeg-python
+modelscope
 
 torch
