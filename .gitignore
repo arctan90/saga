@@ -17,3 +17,4 @@ asr_result/
 
 ai_components/Asr/models
 .venv/
+saga_main.db
