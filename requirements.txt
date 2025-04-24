@@ -14,3 +14,5 @@ ffmpeg-python
 modelscope
 
 torch
+torchaudio
+
